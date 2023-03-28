@@ -3,20 +3,29 @@
     bottom right hand side of the screen 
 */
 #back-to-top {
+    position: fixed;
+    bottom : 0%;
+    right: 0%;
 
 }
 
 /* Write CSS here to make navbar sticky to the top of the page */
 #navbar {
+    position: sticky;
+    top: 0px;
 
 }
 
 #header {
     position: relative;
+    left: 0%;
 }
 
 /* relatively position header image inside header element using CSS here */
 #header-image {
+    position: relative;
+    left: 10px;
+    top: 40px;
 
   
 }
